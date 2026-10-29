@@ -14,14 +14,13 @@
   ],
   "author": "SplitInTech, @ojchavan",
   "license": "MIT",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/group-share#readme",
+  "homepage": "https://github.com/splitintech/group-share#readme",
   "bugs": {
-    "url": "https://github.com/splitintech/open-internal-tools/issues"
+    "url": "https://github.com/splitintech/group-share/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "group-share"
+    "url": "git+https://github.com/splitintech/group-share.git"
   },
   "type": "module",
   "sideEffects": false,
@@ -63,7 +62,9 @@
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
-    "smoke": "node examples/local-preview/smoke.mjs"
+    "smoke": "node examples/local-preview/smoke.mjs",
+    "check:packed": "node scripts/check-packed.mjs",
+    "check:migration": "python3 scripts/check-migration.py"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",

@@ -1,0 +1,484 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+  "product": "group-share",
+  "files": [
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": ".github/workflows/dependency-review.yml",
+      "target": ".github/workflows/dependency-review.yml",
+      "git_blob": "1f67191185d41bb39459ca588fb38879eed93a2b",
+      "mode": "100644",
+      "sha256": "621b12e1d3b8c833e6336c068d305c79d844e2f1ad9d9109491fc8974080c46f"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": ".github/workflows/group-share-publish.yml",
+      "target": ".github/workflows/group-share-publish.yml",
+      "git_blob": "83a8e2c0f377734826fdfa08b0453f48c4b92966",
+      "mode": "100644",
+      "sha256": "ad786ec50218938a17f17b8a441fcf6e071aab872a75d9785f1b4ce737413df9"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "eeff4fce0b55dc7a8396802ec1ee10ccab731e5f",
+      "mode": "100644",
+      "sha256": "053560d2c7568e06f56587b4dccc233d2431a1cf2d03c8e4e72048481a796336"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "c079cfa5ab82f80aff9bd928f85b7ff80892672c",
+      "mode": "100644",
+      "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/README.md",
+      "target": "README.md",
+      "git_blob": "1fa5f96d696e404c87b8c36da9ea095939954638",
+      "mode": "100644",
+      "sha256": "35224baf4998b65814266e6a439d97f99560358f98fe606caf90c43d177f690c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/SECURITY.md",
+      "target": "SECURITY.md",
+      "git_blob": "4f2a2a6a3759ad2f9a6906962abb0488ad3d1785",
+      "mode": "100644",
+      "sha256": "ba7b4bc87edd73df23630c9217194b9edc8cb277030e675ea7348188eba30fd5"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/docs/operator.md",
+      "target": "docs/operator.md",
+      "git_blob": "080bc4919e80c936ce5b325ca632480cc0386b95",
+      "mode": "100644",
+      "sha256": "87628e6e1c9a732196595e3f326630d80c34d005d4fdcca8bd308b43f8fa8a29"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/docs/threat-model.md",
+      "target": "docs/threat-model.md",
+      "git_blob": "75bf85f84d34a63b1ccdba18c85f3978fe7bb40d",
+      "mode": "100644",
+      "sha256": "93a5340dc86b2124dcdf6bcb29833923be16ac3cf610810fd6fafef058148092"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/examples/local-preview/README.md",
+      "target": "examples/local-preview/README.md",
+      "git_blob": "b8bc82f84342c68f02892b5520cc8adff3fe4b7c",
+      "mode": "100644",
+      "sha256": "7440fa2237656838417e0820da42a71c2d368c5e8838fef999293034e18db893"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/examples/local-preview/origin.mjs",
+      "target": "examples/local-preview/origin.mjs",
+      "git_blob": "e7ec35d66cc9756880d07624130b20a08e10dd7c",
+      "mode": "100644",
+      "sha256": "9676e422422d6d2d51f994bcd79520f2e6a3e22fd031e223d607d26ef09ab74d"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/examples/local-preview/preview.mjs",
+      "target": "examples/local-preview/preview.mjs",
+      "git_blob": "d63d0893fb36ab304cba90817a423c28f1ddd1a1",
+      "mode": "100644",
+      "sha256": "685ee7dc93feff25592d1b6e1288e98f16138809dbb94b7cb5001e300c3bf2c7"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/examples/local-preview/smoke.mjs",
+      "target": "examples/local-preview/smoke.mjs",
+      "git_blob": "4e673615f03ae4fb31037c7c2bd53e1736d98b3d",
+      "mode": "100644",
+      "sha256": "981e3d7c5c80a4b5d6b1257e8309c97172cc83096da25742c60937774b6df462"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "67656d6f8eb2c40811867080b5d16ab8f4e47ed3",
+      "mode": "100644",
+      "sha256": "6d2151d673ebffba1f34356e7e5b93704aab24460d0a83f476009345e3b4b671"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/package.json",
+      "target": "package.json",
+      "git_blob": "f06b6ef9b467d8d43b62b27827ed9e32d4144875",
+      "mode": "100644",
+      "sha256": "40e0e3663bfe50ceacb2cd96eb64852f2f0f042c49599cb8451c62c504f1949f"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/admin/handler.ts",
+      "target": "src/admin/handler.ts",
+      "git_blob": "0b3f3e83aaa8b5ab927c44091e25b0edc3db9fcd",
+      "mode": "100644",
+      "sha256": "737473f987d7625d69aaa8fdf39a776bf2ce915840932ac75d54f83a46ce967d"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/admin/session.ts",
+      "target": "src/admin/session.ts",
+      "git_blob": "c593cfda1b527ddb5e3e3d4488367199ad65c4c8",
+      "mode": "100644",
+      "sha256": "a40de1e371420f9abb1fbca1ab8a92e8de8fc87e4998871c88ada7a5bb0f4fd9"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/cli.ts",
+      "target": "src/cli.ts",
+      "git_blob": "eb6b5577afe362077de98b768572c8952ff2a538",
+      "mode": "100644",
+      "sha256": "c77ffbec674ec989db2910e8c78532fd047be6d04120eb6da7b3c34b5afac7e4"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/access.ts",
+      "target": "src/core/access.ts",
+      "git_blob": "59303156de8a387c61467a250d9f23cfb32fbf09",
+      "mode": "100644",
+      "sha256": "3064579885c69cdaa95d140d4f49506ab31c4fdc854f93882ad54f6c2085359c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/cidr.ts",
+      "target": "src/core/cidr.ts",
+      "git_blob": "f22d09901134c535e2f60cb47c18cc7e30936a13",
+      "mode": "100644",
+      "sha256": "52827a2ef622ba9a2e2014ba370b167e0fd753ff8cdf9e795ceaa75ce8f4f0f2"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/client-ip.ts",
+      "target": "src/core/client-ip.ts",
+      "git_blob": "714256dfd7c2157e67b80e94a8552eaaa77a20c4",
+      "mode": "100644",
+      "sha256": "2fa8beab5f3a6afff7549b91bbc21dc3d52bb8148b4b216994e596d6b91bacf0"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/email.ts",
+      "target": "src/core/email.ts",
+      "git_blob": "e29a2d6492668842b24c278f88a4ef85bdf368a2",
+      "mode": "100644",
+      "sha256": "6b848eb04db2e0146e488f8a584ef85a2bc3449138b466e74fdacabdf3e5c2a3"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/errors.ts",
+      "target": "src/core/errors.ts",
+      "git_blob": "f55c72b711acb8c8f75b49dbf340fc120c5cf665",
+      "mode": "100644",
+      "sha256": "852d270bd21328fea73133ae3feccf4bace6dd412bbc6eee4d37e26bb4dbde03"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/label.ts",
+      "target": "src/core/label.ts",
+      "git_blob": "8221ed936a82cdcb3d0e3d2c7834e44d343a11bd",
+      "mode": "100644",
+      "sha256": "5bbdd3841cab35b279a7eeb9858cf07e3b0e55242c2bd34a9f28b96d6a127a19"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/session.ts",
+      "target": "src/core/session.ts",
+      "git_blob": "9c724a948800d0d3702700628718a271cc7535bf",
+      "mode": "100644",
+      "sha256": "971f0dfc5c62dfc6dcd2b51cab8fba020c5d89921a24f5b0b27758c875e1ebfb"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/share.ts",
+      "target": "src/core/share.ts",
+      "git_blob": "51b8061e06f57ccd9917c32c9a50bb5945261154",
+      "mode": "100644",
+      "sha256": "a6f33a61f0211ee0f5a4b60d8ad7691f6e5dd58481732a05d08998e1cb541c23"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/core/types.ts",
+      "target": "src/core/types.ts",
+      "git_blob": "f39dec11e4c2b12d35b1ab0f6168eed67694560d",
+      "mode": "100644",
+      "sha256": "5f1f155753e1c66c5d3b63f205d6cd3198a4b7ea8914855b31d39687e9c5f7c1"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/gateway/handler.ts",
+      "target": "src/gateway/handler.ts",
+      "git_blob": "005405a3fca843d942ee87e6fe3f5c6390f58a1a",
+      "mode": "100644",
+      "sha256": "d691afcff7adb0a8410b367677766af202c4e324be922db31b760f70ef2dab5f"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/gateway/server.ts",
+      "target": "src/gateway/server.ts",
+      "git_blob": "8a5b26276ad0b80d7d7a48aeb493641acbe0a909",
+      "mode": "100644",
+      "sha256": "a1e8f5c8130ea0d34e77ea09b8e001edacc3820c899e4f8029c1805ba58356f6"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/identity/email-code.ts",
+      "target": "src/identity/email-code.ts",
+      "git_blob": "559110c9efcaeafc5ad566e834e6dbbfc70bafa5",
+      "mode": "100644",
+      "sha256": "6283c404092c7e324dead2d3cf0c6e68e58e38fc1c44fd65f69db68f2740cd0c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/identity/index.ts",
+      "target": "src/identity/index.ts",
+      "git_blob": "26cc396c7d7ddaffc5da2abd5b269bbaf9a2f1e3",
+      "mode": "100644",
+      "sha256": "874ea680c3398c085ea2d5633c649dbae8e6937aebc9716995ef9975383cf5f6"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/identity/oidc.ts",
+      "target": "src/identity/oidc.ts",
+      "git_blob": "d8073d015f6bba7d28ad4a89b0933817a6bbfd50",
+      "mode": "100644",
+      "sha256": "4cff90f3c5956d3b8c92d4fda251bceb02a7fd6bdd6195a785566b04cb718096"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/identity/types.ts",
+      "target": "src/identity/types.ts",
+      "git_blob": "c024e167b1c3b99583b46628bc7969a7734ac76b",
+      "mode": "100644",
+      "sha256": "6b72521aa8021f140ee95f6be92dfac9f5294f6dfe0620fb3ef5467b53bf272c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/index.ts",
+      "target": "src/index.ts",
+      "git_blob": "8177a5f6e7f82dab8f101d6a037fe8077612ee3b",
+      "mode": "100644",
+      "sha256": "633699b6cf40cf350dcd0970c13a03d04925c4db490d8282f92b5a8f30c13c82"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/server.ts",
+      "target": "src/server.ts",
+      "git_blob": "e8945e6e995aab68d08367e7cfee9de53823c524",
+      "mode": "100644",
+      "sha256": "0f83a2d19ebb9ca743c66b9ea9b6d91779d2da01c007115c67bcd9c766393d7a"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/store/file.ts",
+      "target": "src/store/file.ts",
+      "git_blob": "a30c32ecf255f338eb4c037ea4714e81a3cd5835",
+      "mode": "100644",
+      "sha256": "e03068532bb3354a1baa20addaa2a32725c0749a68d1868a8e6732a8102799ad"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/store/memory.ts",
+      "target": "src/store/memory.ts",
+      "git_blob": "b296687137f78c21bc9a875f2c10929992f206fc",
+      "mode": "100644",
+      "sha256": "9c196f5d7475bbf5049f1a2946d264cf9a01144da8af3307b670b0210be3b0f2"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/store/types.ts",
+      "target": "src/store/types.ts",
+      "git_blob": "7cdaaee220e1d916dd77a96d5adbf743c2335a19",
+      "mode": "100644",
+      "sha256": "78d2a1619faffcca794eaadd80f9a77794032fe9f2d989c79c01e124a9eb803a"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/ui/admin.ts",
+      "target": "src/ui/admin.ts",
+      "git_blob": "3f274eb8bf70388ae33cdd8e7a9b8ff2d2724f3f",
+      "mode": "100644",
+      "sha256": "6bfcb34ce4938991a5baf533061150d61ae0cb7e757654c88965d535ef8730b9"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/ui/assets.ts",
+      "target": "src/ui/assets.ts",
+      "git_blob": "96d5174ae70618fa5c3a1e83b6cd43f88a8b2fea",
+      "mode": "100644",
+      "sha256": "c2c7f08580a5b33eb27b3888bb25d2d1e176f622b1d7c009ce81fbd258ab8a8b"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/ui/recipient.ts",
+      "target": "src/ui/recipient.ts",
+      "git_blob": "f9047fa70489573412a45a45c2c1257eaf9fb0d6",
+      "mode": "100644",
+      "sha256": "e4fd3819a5b5f97897261cce7601bd7645536650d666c64e65fa52fa1abf8785"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/src/ui/shell.ts",
+      "target": "src/ui/shell.ts",
+      "git_blob": "f54f0e793996790151e05b2f0c048c124124c903",
+      "mode": "100644",
+      "sha256": "65d577f26fada999e4963e765a3e551749d5817cf5e3076ce307d094b2dd1a10"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tests/cli.test.ts",
+      "target": "tests/cli.test.ts",
+      "git_blob": "da9a382102baccc360c924728c74043de9ebb667",
+      "mode": "100644",
+      "sha256": "d4211ff3c335f3166679907ddaf565f1163f70a8ae5d06377243077779f17de4"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tests/core.test.ts",
+      "target": "tests/core.test.ts",
+      "git_blob": "f721efdf492b0f99c776c98a5a7ce1e7213ff6b6",
+      "mode": "100644",
+      "sha256": "09a0d5efcfd4157884cbb6d9e29e7cbff5460dc1f9a60e065f2b86a10999480c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tests/gateway.test.ts",
+      "target": "tests/gateway.test.ts",
+      "git_blob": "7b02d9c3fcd1f30b3dc17b6e23f67af1c333ad4f",
+      "mode": "100644",
+      "sha256": "ab93c512bd7ab929adc3bffc7e325fdb47008ea1591f54ae9c731d4275c5e102"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tests/ui.test.ts",
+      "target": "tests/ui.test.ts",
+      "git_blob": "d00a2c3493d9d151e637fb1aa109f42ba960e89d",
+      "mode": "100644",
+      "sha256": "25c626de6667c3c68ef568218e7d755def354aee5b148d639856fa2f9679220c"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tsconfig.json",
+      "target": "tsconfig.json",
+      "git_blob": "84198c3ed678bfd6ffaca1a01b6d2f8376a74a14",
+      "mode": "100644",
+      "sha256": "16f4392130d6d85fb0d146c2c22c2a511c1c5a0673cdf9377de1368a900a61b4"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/tsup.config.ts",
+      "target": "tsup.config.ts",
+      "git_blob": "ae485a82a6c6ecc00359502a822ff6ee405ff0fd",
+      "mode": "100644",
+      "sha256": "02f50da7bafb227951fe34854a75c7027293606f2a7f7d2f6d56e4cd3758a9a8"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/ui/share.js",
+      "target": "ui/share.js",
+      "git_blob": "3c2ca5bba90dc65303433360c5275e904bec8b3b",
+      "mode": "100644",
+      "sha256": "be5d6a4cd18cc1a51c296b4a831abb0f91be409dad44ebf97b9e51dda2fdfd07"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/ui/waitlist.css",
+      "target": "ui/waitlist.css",
+      "git_blob": "4ad26e5cec07d3a6550b7c669870a30c279db439",
+      "mode": "100644",
+      "sha256": "bc19480a860410b8e333dfcf0c61f94c5bd9bf5a82be13b306a312465d55b897"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "group-share/vitest.config.ts",
+      "target": "vitest.config.ts",
+      "git_blob": "b91163fb5bba7035bfc3601f38183906d3513421",
+      "mode": "100644",
+      "sha256": "3c733ed3ed1b92c001fe318b80e13497ab3ec30ec95516945dacf879e8d7f6fc"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "scripts/assert-release-tag.mjs",
+      "target": "scripts/assert-release-tag.mjs",
+      "git_blob": "15d8bcd982dc7ede03be3d62179181aed1066b0f",
+      "mode": "100755",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606"
+    },
+    {
+      "source_repository": "https://github.com/splitintech/open-internal-tools",
+      "source_commit": "25fabdddccec808b2f616558d0a650c8e190813f",
+      "source": "scripts/oidc-npm-publish.mjs",
+      "target": "scripts/oidc-npm-publish.mjs",
+      "git_blob": "dde682ea4b5c0119a057f1002e86f09614bf569f",
+      "mode": "100755",
+      "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad"
+    }
+  ]
+}

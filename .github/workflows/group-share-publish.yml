@@ -11,10 +11,11 @@ permissions:
 
 defaults:
   run:
-    working-directory: group-share
+    working-directory: .
 
 jobs:
   publish:
+    if: vars.NPM_TRUSTED_PUBLISHING_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -26,7 +27,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: group-share/package-lock.json
+          cache-dependency-path: package-lock.json
       - name: Install npm for OIDC trusted publishing
         run: npm install -g npm@11.5.1
         working-directory: .
@@ -42,10 +43,10 @@ jobs:
           node scripts/assert-release-tag.mjs \
             --tag "${{ github.ref_name }}" \
             --prefix group-share-v \
-            --package group-share/package.json
+            --package package.json
       - name: Publish with OIDC provenance
         working-directory: .
-        run: node scripts/oidc-npm-publish.mjs --cwd group-share
+        run: node scripts/oidc-npm-publish.mjs --cwd .
       - name: Create GitHub Release
         if: github.ref_type == 'tag'
         env:
